@@ -1,0 +1,27 @@
+# Ambientes virtuais
+venv_ml/
+myenv/
+.env
+
+# Python cache
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Pytest e cobertura
+.pytest_cache/
+.coverage
+htmlcov/
+
+# Distribuição/Pacote
+dist/
+build/
+*.egg-info/
+
+# Jupyter
+.ipynb_checkpoints
+
+# modelos salvos
+/models/
+*.joblib
+*.pkl
